@@ -1,0 +1,60 @@
+:root {
+  /* Colores de marca: sacados de la fachada y de las tarrinas de Cremino.
+     El rosa fresa de los toldos y el rótulo, la nata de las paredes, el cacao
+     de su chocolate premiado y el verde pistacho de la vitrina.
+     Se mantienen los nombres de la base (verde, albero...) para reutilizar
+     los componentes: aquí "verde" es el rosa fresa y "albero" el rosa nata. */
+  --tinta: #3a2622;
+  --tinta-suave: #4d3530;
+  --cal: #fff8f5;
+  --cal-suave: #fdeeea;
+  --arena: #fbe4e2;
+  --verde: #c9566b;
+  --verde-oscuro: #a9435a;
+  --verde-claro: #e58c9b;
+  --albero: #f4b4bf;
+  --albero-brillo: #fde2e6;
+  --ocre: #a8475b;
+  --ocre-claro: #f2a7b4;
+  --naranja: #e59a5b;
+  --oliva: #93ad5f;
+  --pistacho: #b8cf86;
+  --blanco: #fffdfb;
+  --texto-suave: #6e5651;
+  --pizarra: #2e1e1b;
+  --tiza: #fff6f2;
+  --whatsapp: #25d366;
+  --whatsapp-oscuro: #1da851;
+
+  /* Degradados */
+  --grad-ocre: linear-gradient(120deg, #a9435a 0%, #e58c9b 40%, #c9566b 65%, #fde2e6 100%);
+  --grad-calido: linear-gradient(135deg, #fff1ee 0%, #f7c6cd 55%, #e58c9b 100%);
+  --grad-instagram: linear-gradient(45deg, #f9ce34 0%, #ee2a7b 50%, #6228d7 100%);
+
+  /* Tipografía: Marcellus, las mayúsculas con serifa del rótulo de la
+     fachada, para la marca y los títulos; Nunito, redondeada y amable,
+     para el texto */
+  --font-script: "Marcellus", Georgia, "Times New Roman", serif;
+  --font-display: "Marcellus", Georgia, "Times New Roman", serif;
+  --font-brand: "Marcellus", Georgia, "Times New Roman", serif;
+  --font-body: "Nunito", "Segoe UI", system-ui, sans-serif;
+
+  /* Espaciado */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 7rem;
+
+  /* Layout */
+  --max-width: 1280px;
+  --radius: 16px;
+  --radius-lg: 26px;
+  --shadow-card: 0 24px 50px -18px rgba(58, 38, 34, 0.45);
+  --shadow-soft: 0 10px 30px -12px rgba(58, 38, 34, 0.28);
+  --shadow-ocre: 0 14px 34px -12px rgba(201, 86, 107, 0.5);
+  --shadow-verde: 0 14px 30px -12px rgba(201, 86, 107, 0.6);
+
+  /* Transiciones */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
